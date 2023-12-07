@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Downloads/keeper-app-part-1-starting"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my-app"
+	}
+}
