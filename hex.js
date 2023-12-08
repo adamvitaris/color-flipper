@@ -11,3 +11,4 @@ randomHex();
 
 //TODO
 // finish and fix for loop, make the function work, write eventListener
+// Szeretlek Mari <3
