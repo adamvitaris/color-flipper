@@ -1,14 +1,17 @@
 const hexa = ["A", "B", "C", "D", "E", "F", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
-function randomHex() {
-    var randomElement = hexa[Math.floor(Math.random()*hexa.length)];
-    for (var i = 0; i < 5; i++) {
-        randomElement
+function getRandom() {
+    const finalHex = [];
+    for (var i = 0; i < 6; i++) {
+        const randomElement = hexa[Math.floor(Math.random()*hexa.length)];
+        finalHex.push(randomElement);
     }
-    return randomElement;
-}
-randomHex();
+    const hexString = "#" + finalHex.join("");
+    console.log(hexString);
+    return hexString;
+    }
 
-//TODO
-// finish and fix for loop, make the function work, write eventListener
-// Szeretlek Mari <3
+    getRandom();
+
+    //TODO
+    // Manipulate the hex.html to generate random hex codes, and make the background color 
