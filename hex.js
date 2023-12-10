@@ -12,7 +12,7 @@ for (var i = 0; i < 6; i++) {
     }
     const hexString = "#" + finalHex.join("");
     document.querySelector(".container").style.backgroundColor = hexString;
-    document.querySelector("h2").innerHTML = hexString;
+    document.querySelector(".color").innerHTML = hexString;
 })
 
 // TODO
