@@ -1,17 +1,19 @@
 const hexa = ["A", "B", "C", "D", "E", "F", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+const btn = document.querySelector(".btn");
+const color = document.querySelector(".color");
 
-function getRandom() {
+
+
+btn.addEventListener("click", function () {
     const finalHex = [];
-    for (var i = 0; i < 6; i++) {
+for (var i = 0; i < 6; i++) {
         const randomElement = hexa[Math.floor(Math.random()*hexa.length)];
         finalHex.push(randomElement);
     }
     const hexString = "#" + finalHex.join("");
-    console.log(hexString);
-    return hexString;
-    }
+    document.querySelector(".container").style.backgroundColor = hexString;
+    document.querySelector("h2").innerHTML = hexString;
+})
 
-    getRandom();
-
-    //TODO
-    // Manipulate the hex.html to generate random hex codes, and make the background color 
+// TODO
+// "Background Color" text is not there!
