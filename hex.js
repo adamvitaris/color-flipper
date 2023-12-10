@@ -14,6 +14,3 @@ for (var i = 0; i < 6; i++) {
     document.querySelector(".container").style.backgroundColor = hexString;
     document.querySelector(".color").innerHTML = hexString;
 })
-
-// TODO
-// "Background Color" text is not there!
